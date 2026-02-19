@@ -1,14 +1,13 @@
 export default function Footer() {
   return (
-    <footer className="bg-black text-white py-6 mt-10">
-      <div className="text-center">
-        <p className="mb-3">© 2026 Henrietta Isange</p>
-
+    <footer className="bg-black text-gray-300 py-10">
+      <div className="max-w-6xl mx-auto text-center space-y-4">
+        <p>© 2026 Henrietta Isange</p>
         <div className="flex justify-center gap-6">
-          <a href="#" className="hover:text-brownPrimary">Facebook</a>
-          <a href="#" className="hover:text-brownPrimary">TikTok</a>
-          <a href="#" className="hover:text-brownPrimary">WhatsApp</a>
-          <a href="#" className="hover:text-brownPrimary">GitHub</a>
+          <a className="hover:text-brownPrimary" href="#">Facebook</a>
+          <a className="hover:text-brownPrimary" href="#">TikTok</a>
+          <a className="hover:text-brownPrimary" href="#">WhatsApp</a>
+          <a className="hover:text-brownPrimary" href="#">GitHub</a>
         </div>
       </div>
     </footer>

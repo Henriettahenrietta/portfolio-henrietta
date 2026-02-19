@@ -1,8 +1,1 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-/* remove default browser margins */
-body {
-  margin: 0;
-}
+@import "tailwindcss";
