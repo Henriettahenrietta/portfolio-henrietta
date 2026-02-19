@@ -110,8 +110,84 @@ export default function App() {
           </div>
 
         </div>
-      </section>
+    
 
-    </div>
+         {/*  CONTACT SECTION */}
+      <section className="max-w-4xl mx-auto px-6 py-20">
+        <h2 className="text-3xl font-bold mb-8 text-center">
+          Contact <span className="text-amber-400">Me</span>
+        </h2>
+
+        <p className="text-neutral-400 text-center mb-12">
+          Have a project, question, or just want to say hello?
+          Fill the form below and I’ll get back to you.
+        </p>
+
+        <form className="bg-neutral-800 border border-neutral-700 rounded-xl p-8 space-y-6">
+          
+          <div>
+            <label className="block mb-2 text-sm">Your Name</label>
+            <input
+              type="text"
+              placeholder="Enter your name"
+              className="w-full bg-neutral-900 border border-neutral-700 rounded-lg px-4 py-3 focus:outline-none focus:border-amber-400"
+            />
+          </div>
+
+          <div>
+            <label className="block mb-2 text-sm">Your Email</label>
+            <input
+              type="email"
+              placeholder="Enter your email"
+              className="w-full bg-neutral-900 border border-neutral-700 rounded-lg px-4 py-3 focus:outline-none focus:border-amber-400"
+            />
+          </div>
+
+          <div>
+            <label className="block mb-2 text-sm">Message</label>
+            <textarea
+              rows="5"
+              placeholder="Write your message..."
+              className="w-full bg-neutral-900 border border-neutral-700 rounded-lg px-4 py-3 focus:outline-none focus:border-amber-400"
+            ></textarea>
+          </div>
+
+          <button
+            type="submit"
+            className="w-full bg-amber-400 text-neutral-900 font-semibold py-3 rounded-lg hover:bg-amber-300 transition"
+          >
+            Send Message
+          </button>
+
+        </form>
+      </section>
+     
+           {/* FOOTER,LINKS */}
+      <footer className="border-t border-neutral-800 py-8">
+        <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6">
+
+          <p className="text-neutral-500 text-sm">
+            © {new Date().getFullYear()} Henrietta Isange. All rights reserved.
+          </p>
+
+          <div className="flex gap-6 text-neutral-400">
+            <a href="https://www.facebook.com/henrietta.isange.9" className="hover:text-amber-400">Facebook</a>
+            <a href="https://www.tiktok.com/@henrietta_webdev_girl?_r=1&_t=ZS-943hyUpX5jm" className="hover:text-amber-400">TikTok</a>
+            <a href="https://wa.me/237682334700" className="hover:text-amber-400">WhatsApp</a>
+            <a href="https://github.com/Henriettahenrietta" className="hover:text-amber-400">GitHub</a>
+            <a href="mailto:henriettahenrietta322@gmail.com" className="hover:text-amber-400">Email</a>
+          </div>
+
+        </div>
+      </footer>
+
+
+
+
+</section>
+</div>
+    
   );
 }
+
+
